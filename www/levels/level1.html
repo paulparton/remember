@@ -1,0 +1,68 @@
+<html>
+<head>
+  <title>Remember: Level 1</title>
+  <script data-main="../js/level1" src="../js/lib/require.js"></script>
+  <style>
+  html {
+      -webkit-user-select: none;
+  }
+  .game-button{
+      height:100px;
+      margin:0px 20px 20px 20px;
+      border-radius:20px;
+      transition: box-shadow 0.1s linear;
+  }
+  body {
+      background-color: #e1e1e1;
+      font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+  }
+  .gameboard{
+      padding-top:50px;
+  }
+
+  #game-info{
+      text-align:center;
+      width:100%;
+      font-size:24px;
+      padding-bottom:20px;
+  }
+  </style>
+</head>
+<body>
+
+  <div id="level1" class="level1-gameboard gameboard">
+
+    <div id="game-info">
+      <strong>Score:</strong>
+      <span id="user-score">0</span>
+    </div>
+
+    <div data-game-button='1'
+        data-color-off='#8b1e1c'
+        data-color-on='#f20000'
+        id="button1"
+        class="game-button">
+    </div>
+    <div data-game-button='2'
+        data-color-off='#0e7593'
+        data-color-on='#00c3da'
+        id="button2"
+        class="game-button">
+    </div>
+    <div data-game-button='3'
+        data-color-off='#b6b15d'
+        data-color-on='#e7e200'
+        id="button3"
+        class="game-button">
+    </div>
+    <div data-game-button='4'
+        data-color-off='#00bf00'
+        data-color-on='#00ff00'
+        id="button4"
+        class="game-button">
+    </div>
+
+  </div>
+
+</body>
+</html>

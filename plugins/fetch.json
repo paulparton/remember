@@ -1,0 +1,9 @@
+{
+    "cordova-plugin-file": {
+        "source": {
+            "type": "git",
+            "url": "git://git.apache.org/cordova-plugin-file.git",
+            "subdir": "."
+        }
+    }
+}
